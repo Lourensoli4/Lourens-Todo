@@ -3,7 +3,7 @@ const cors = require("cors")
 const express = require("express") // our express server
 const app = express() // generate an app object
 const bodyParser = require("body-parser") // requiring the body-parser
-const PORT = process.env.PORT || 3001 // port that the server is running on => localhost:3000
+const PORT = process.env.PORT || 8080 // port that the server is running on => localhost:3000
 
 const db = require("./models/") // add statement to top of logic step
 
