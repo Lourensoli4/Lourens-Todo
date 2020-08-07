@@ -59,7 +59,7 @@ function success(res, payload) {
     })
   })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
   // listening on port 3000
   console.log(`listening on port ${PORT}`) // print this when the server starts
 })
